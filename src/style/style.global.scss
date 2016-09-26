@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300,400);
+@import 'variables';
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  background: #21252b;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 13px;
+  background: #263238;
+  margin: 0;
+  padding: 5px;
+  font-weight: 300;
+  display: block;
+  color: $color-title;
+  i {
+    padding-right: $padding;
+  }
+}
